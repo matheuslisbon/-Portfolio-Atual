@@ -42,10 +42,14 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Sansita+Swashed:wght@400;600;700&display=swap"
             rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/aos@next/dist/aos.css"
           />
 
           <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
@@ -53,6 +57,8 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>AOS.init();</script>
         </body>
       </Html>
     )
