@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react'
 import { Header } from './styles'
 interface Props {
-  toggleTheme(): void
+  togleTheme(): void
 }
 export const NavBar: React.FC<Props> = ({ togleTheme }) => {
   const [navBar, setNavBar] = useState(false)

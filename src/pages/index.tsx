@@ -11,7 +11,7 @@ import { Description } from '../components/Description'
 import { About } from '../components/About'
 
 interface Props {
-  toggleTheme(): void
+  togleTheme(): void
 }
 const Home: React.FC<Props> = ({ togleTheme }) => {
   return (
