@@ -8,15 +8,16 @@ export const Container = styled.div`
   align-items: center;
   margin-top: 120px;
   color: ${props => props.theme.colors.text};
-
   h1 {
     margin-top: 20px;
     font-size: 64px;
+    z-index: 99;
   }
 
   p.title {
     border-bottom: 5px solid ${props => props.theme.colors.border};
     margin-top: 20px;
+    z-index: 99;
     font-size: 64px;
   }
 

@@ -51,9 +51,9 @@ export const Header = styled.div`
     }
   }
   div.active {
-    background: ${props => props.theme.colors.navbar};
+    background: ${props => props.theme.colors.background};
     backdrop-filter: saturate(180%) blur(18px);
-    border-bottom: 0.5px solid rgba(250, 250, 250, 0.1);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.07);
     transition: background 0.9s;
   }
 `
