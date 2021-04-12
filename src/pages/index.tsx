@@ -16,17 +16,19 @@ interface Props {
 const Home: React.FC<Props> = ({ togleTheme }) => {
   return (
     <Container>
+      <div className="background-container">
+        <img
+          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png"
+          alt=""
+          className="background-effect"
+        />
+        <div className="stars"></div>
+        <div className="twinkling"></div>
+        <div className="clouds"></div>
+      </div>
       <Head>
         <title>Homepage</title>
       </Head>
-      <video
-        autoPlay
-        loop
-        className="video-background"
-        src={
-          'https://assets.mixkit.co/videos/preview/mixkit-smoke-with-fluorescent-particles-on-black-background-12495-large.mp4'
-        }
-      ></video>
       <div data-aos="fade-in" data-aos-duration="2000">
         <NavBar togleTheme={togleTheme} />
       </div>
@@ -36,16 +38,16 @@ const Home: React.FC<Props> = ({ togleTheme }) => {
       <div data-aos="fade-right" data-aos-duration="1500">
         <Portfolio />
       </div>
-      <div data-aos="fade-in" data-aos-duration="500">
+      <div data-aos="fade-right" data-aos-duration="1500">
         <Skills />
       </div>
-      <div data-aos="fade-in" data-aos-duration="500">
+      <div data-aos="fade-right" data-aos-duration="1500">
         <Description />
       </div>
-      <div data-aos="fade-in" data-aos-duration="500">
+      <div data-aos="fade-right" data-aos-duration="1500">
         <About />
       </div>
-      <div data-aos="fade-in" data-aos-duration="500">
+      <div data-aos="fade-right" data-aos-duration="1500">
         <Footer />
       </div>
     </Container>
