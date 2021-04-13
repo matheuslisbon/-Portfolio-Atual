@@ -10,13 +10,11 @@ const SkillsDiv = styled.div`
   margin-top: 60px;
   border-radius: 18px;
   color: ${props => props.theme.colors.text};
-  border: ${props => props.theme.colors.defaultLightBorder};
 
   h1 {
     font-size: 80px;
     width: min-content;
     text-align: center;
-    border-bottom: 3px solid ${props => props.theme.colors.border};
   }
   article {
     font-size: 0.2px;

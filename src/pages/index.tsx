@@ -36,21 +36,19 @@ const Home: React.FC<Props> = ({ togleTheme, theme }) => {
       <div data-aos="fade-right" data-aos-duration="2000">
         <Apresentation />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1500">
+      <div data-aos="fade-right" data-aos-duration="1000">
         <Portfolio />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1500">
+      <div data-aos="fade-right" data-aos-duration="1000">
         <Skills />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1500">
+      <div data-aos="fade-right" data-aos-duration="1000">
         <Description />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1500">
+      <div data-aos="fade-right" data-aos-duration="1000">
         <About />
       </div>
-      <div data-aos="fade-right" data-aos-duration="1500">
-        <Footer />
-      </div>
+      <Footer />
     </Container>
   )
 }

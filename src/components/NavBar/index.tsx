@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Container } from './styles'
 
 interface Props {
@@ -7,24 +7,6 @@ interface Props {
   theme: string
 }
 export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
-  const [navBar, setNavBar] = useState(false)
-  function Scroll() {
-    useEffect(function onFirstMount() {
-      function onScroll() {
-        if (window.scrollY >= 150) {
-          setNavBar(true)
-        } else {
-          setNavBar(false)
-        }
-      }
-
-      window.addEventListener('scroll', onScroll)
-    }, []) // empty dependencies array means "run this once on first mount"
-    return null
-  }
-
-  Scroll()
-
   return (
     /**
     <Header>
@@ -74,9 +56,11 @@ export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
                 <span className="u-nav">Contato</span>
               </span>
             </a>
-            <a href="#work" className="nav-link">
+            <a href="#work" id="theme" className="nav-link ">
               <span className="nav-link-span">
-                <button onClick={togleTheme}>Theme:{theme}</button>
+                <button className="toggle-theme" onClick={togleTheme}>
+                  Theme: {theme}
+                </button>
               </span>
             </a>
           </div>

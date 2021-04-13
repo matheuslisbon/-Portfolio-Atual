@@ -14,7 +14,9 @@ const theme = {
     button: 'string',
     defaultLightBorder: 'rgb(6, 203, 254)',
     lightNuvem: 'invert(100%)',
-    blackOrWhite: 'black'
+    blackOrWhite: 'black',
+    colorAlterTheme: 'red',
+    buttonToggleTheme: '#606060'
   },
   background: '#DCDCDA'
 }

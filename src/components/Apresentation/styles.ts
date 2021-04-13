@@ -12,14 +12,13 @@ export const Container = styled.div`
     margin-top: 20px;
     font-size: 64px;
     z-index: 99;
-    text-shadow: 4px 2px 0px ${props => props.theme.colors.border};
   }
 
   p.title {
-    border-bottom: 5px solid ${props => props.theme.colors.border};
-    margin-top: 20px;
+    margin-top: 25px;
     z-index: 99;
     font-size: 64px;
+    margin-bottom: 20px;
   }
 
   section {
@@ -30,7 +29,6 @@ export const Container = styled.div`
     padding: 20px;
     border-radius: 8px;
     color: ${props => props.theme.colors.text};
-    box-shadow: 0px 0px 1px 1px rgb(6, 203, 254);
 
     p {
       font-size: 20px;

@@ -120,7 +120,8 @@ export const Container = styled.div`
   span.gradient {
     background: -webkit-linear-gradient(45deg, #f857a8, #ff5858);
     background: linear-gradient(45deg, #f857a8, #ff5858);
-    background: ${props => props.theme.colors.text};
+    background: ${props => props.theme.colors.colorAlterTheme};
+    color: ${props => props.theme.colors.text};
     padding: 0 1em;
     position: relative;
     right: 1em;
@@ -134,21 +135,16 @@ export const Container = styled.div`
   }
   h1.logo {
     font-family: 'Sansita Swashed', cursive;
-    border-bottom: 3px solid ${props => props.theme.colors.border};
-    color: ${props => props.theme.colors.blackOrWhite};
+
     font-size: 32px;
   }
-  h1.logoa,
-  a:active,
-  a:hover,
-  a:visited {
-    text-decoration: none;
-    color: #fff;
-  }
+
   .nav-link {
     text-transform: uppercase;
     text-align: center;
     border-top: 0.5px solid #ddd;
+    font-weight: bold;
+    color: ${props => props.theme.colors.text};
   }
   a:link,
   a:visited,
@@ -168,6 +164,21 @@ export const Container = styled.div`
     color: #f857a8;
     padding-left: 2em;
     padding-right: 2em;
+  }
+  #theme {
+    background: ${props => props.theme.colors.colorAlterTheme};
+    cursor: initial;
+    :hover {
+      background: ${props => props.theme.colors.colorAlterTheme};
+    }
+  }
+  .toggle-theme {
+    cursor: pointer;
+    padding: 4px;
+    color: ${props => props.theme.colors.text};
+    background: ${props => props.theme.colors.buttonToggleTheme};
+    font-weight: bold;
+    border: none;
   }
   @media (min-width: 800px) {
     #nav-wrapper {

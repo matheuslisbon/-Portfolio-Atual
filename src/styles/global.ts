@@ -103,11 +103,11 @@ export default createGlobalStyle`
     bottom: 0;
     z-index: 2;
 
-    -moz-animation:move-background 25s linear infinite;
-  -ms-animation:move-background 25s linear infinite;
-  -o-animation:move-background 25s linear infinite;
-  -webkit-animation:move-background 25s linear infinite;
-  animation:move-background 25s linear infinite;
+    -moz-animation:move-background 21s linear infinite;
+  -ms-animation:move-background 21s linear infinite;
+  -o-animation:move-background 21s linear infinite;
+  -webkit-animation:move-background 21s linear infinite;
+  animation:move-background 21s linear infinite;
 
 }
 
@@ -123,11 +123,11 @@ export default createGlobalStyle`
     bottom: 0;
     z-index: 3;
 
-  -moz-animation:move-background 130s linear infinite;
-  -ms-animation:move-background 130s linear infinite;
-  -o-animation:move-background 130s linear infinite;
-  -webkit-animation:move-background 130s linear infinite;
-  animation:move-background 130s linear infinite;
+  -moz-animation:move-background 80s linear infinite;
+  -ms-animation:move-background 80s linear infinite;
+  -o-animation:move-background 80s linear infinite;
+  -webkit-animation:move-background 80s linear infinite;
+  animation:move-background 80s linear infinite;
 }
 img.background-effect{
   height: 70vh;

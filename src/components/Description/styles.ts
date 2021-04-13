@@ -6,7 +6,6 @@ export const Container = styled.div`
 
   h1 {
     text-align: center;
-    border-bottom: 2px solid #06cbfe;
     font-size: 64px;
     margin-bottom: 10px;
   }
@@ -21,7 +20,6 @@ export const Container = styled.div`
     line-height: 1.5;
     font-size: 26px;
     font-weight: 500;
-    border: ${props => props.theme.colors.defaultLightBorder};
   }
   div.div-grid {
     display: flex;

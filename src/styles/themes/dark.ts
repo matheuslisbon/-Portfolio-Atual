@@ -14,7 +14,9 @@ export default {
     button: 'black',
     defaultLightBorder: '',
     lightNuvem: 'none',
-    blackOrWhite: 'black'
+    blackOrWhite: 'black',
+    colorAlterTheme: '#404040',
+    buttonToggleTheme: '#606060'
   },
   background: '#DCDCDA'
 }

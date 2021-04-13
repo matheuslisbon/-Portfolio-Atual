@@ -55,7 +55,7 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({ slides }) => {
                       src={slide.image}
                       alt="travel image"
                       className="image selected"
-                    />{' '}
+                    />
                   </>
                 )}
                 {current + 1 === index && (

@@ -13,12 +13,11 @@ const ContatoDiv = styled.div`
     align-items: center;
     line-height: 1.5;
     padding: 20px;
-    border: ${props => props.theme.colors.defaultLightBorder};
   }
   div img.perfil {
     border-radius: 15%;
     height: 150px;
-    border: 2px solid #06cbfe;
+
     padding: 3px;
   }
   ul {
