@@ -12,6 +12,7 @@ export const Container = styled.div`
     margin-top: 20px;
     font-size: 64px;
     z-index: 99;
+    text-shadow: 4px 2px 0px ${props => props.theme.colors.border};
   }
 
   p.title {

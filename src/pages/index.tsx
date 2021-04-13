@@ -12,8 +12,9 @@ import { About } from '../components/About'
 
 interface Props {
   togleTheme(): void
+  theme: string
 }
-const Home: React.FC<Props> = ({ togleTheme }) => {
+const Home: React.FC<Props> = ({ togleTheme, theme }) => {
   return (
     <Container>
       <div className="background-container">
@@ -30,7 +31,7 @@ const Home: React.FC<Props> = ({ togleTheme }) => {
         <title>Homepage</title>
       </Head>
       <div data-aos="fade-in" data-aos-duration="2000">
-        <NavBar togleTheme={togleTheme} />
+        <NavBar togleTheme={togleTheme} theme={theme} />
       </div>
       <div data-aos="fade-right" data-aos-duration="2000">
         <Apresentation />

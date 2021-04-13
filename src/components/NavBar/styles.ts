@@ -19,6 +19,7 @@ export const Header = styled.div`
       border-bottom: 3px solid ${props => props.theme.colors.border};
       border-bottom-left-radius: 1rem;
       border-bottom-right-radius: 1rem;
+      text-shadow: 2px 1px 0px ${props => props.theme.colors.border};
     }
     ul {
       display: flex;

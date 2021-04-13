@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   color: ${props => props.theme.colors.text};
   padding-bottom: 20px;
+
   h1 {
     text-align: center;
     border-bottom: 2px solid #06cbfe;
@@ -20,6 +21,7 @@ export const Container = styled.div`
     line-height: 1.5;
     font-size: 26px;
     font-weight: 500;
+    border: ${props => props.theme.colors.defaultLightBorder};
   }
   div.div-grid {
     display: flex;

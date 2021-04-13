@@ -11,7 +11,9 @@ const theme = {
     stars: 'black',
     border: 'rgb(6, 203, 254)',
     navbar: 'rgba(250, 250, 250, 0.1)',
-    button: 'string'
+    button: 'string',
+    defaultLightBorder: 'rgb(6, 203, 254)',
+    lightNuvem: 'invert(100%)'
   },
   background: '#DCDCDA'
 }

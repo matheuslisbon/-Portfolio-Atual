@@ -1,12 +1,13 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState, useEffect } from 'react'
 import { Header } from './styles'
+
 interface Props {
   togleTheme(): void
+  theme: string
 }
-export const NavBar: React.FC<Props> = ({ togleTheme }) => {
+export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
   const [navBar, setNavBar] = useState(false)
-
   function Scroll() {
     useEffect(function onFirstMount() {
       function onScroll() {
@@ -35,7 +36,7 @@ export const NavBar: React.FC<Props> = ({ togleTheme }) => {
           <li>Contato</li>
         </ul>
         <section>
-          <button onClick={togleTheme}>theme</button>
+          <button onClick={togleTheme}>Theme:{theme}</button>
         </section>
       </div>
     </Header>

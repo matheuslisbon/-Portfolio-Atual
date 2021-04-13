@@ -114,6 +114,7 @@ export default createGlobalStyle`
 .clouds{
   width:10000px;
   height: 100%;
+  filter: ${props => props.theme.colors.lightNuvem};
   background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
   background-size: 1000px 1000px;
     position: absolute;
