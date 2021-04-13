@@ -13,7 +13,8 @@ const theme = {
     navbar: 'rgba(250, 250, 250, 0.1)',
     button: 'string',
     defaultLightBorder: 'rgb(6, 203, 254)',
-    lightNuvem: 'invert(100%)'
+    lightNuvem: 'invert(100%)',
+    blackOrWhite: 'black'
   },
   background: '#DCDCDA'
 }

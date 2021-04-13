@@ -12,7 +12,8 @@ export default {
     navbar: 'rgba(6, 203, 254, 0.5)',
     button: 'rgb(6, 203, 254)',
     defaultLightBorder: '1px solid rgb(6, 203, 254)',
-    lightNuvem: 'invert(100%)'
+    lightNuvem: 'invert(100%)',
+    blackOrWhite: 'white'
   },
   background: '#DCDCDA'
 }
