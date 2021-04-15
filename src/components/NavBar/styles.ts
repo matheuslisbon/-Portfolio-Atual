@@ -141,10 +141,13 @@ export const Container = styled.div`
 
   .nav-link {
     text-transform: uppercase;
+    font-family: Roboto;
     text-align: center;
+
     border-top: 0.5px solid #ddd;
     font-weight: bold;
     color: ${props => props.theme.colors.text};
+    font-size: 18px;
   }
   a:link,
   a:visited,
@@ -161,9 +164,13 @@ export const Container = styled.div`
     height: 100%;
   }
   .btn-nav {
-    color: #f857a8;
-    padding-left: 2em;
-    padding-right: 2em;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-right: -12px;
+    background: ${props => props.theme.colors.colorAlterTheme};
+    color: ${props => props.theme.colors.text};
+    font-weight: bold;
+    border: none;
   }
   #theme {
     background: ${props => props.theme.colors.colorAlterTheme};

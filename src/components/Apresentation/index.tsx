@@ -14,6 +14,7 @@ export const Apresentation: React.FC = () => {
           lutei muito pra saber oque eu sei hoje, seja bem vindo espero que
           goste !
         </p>
+        <div id="portfolio"></div>
       </section>
     </Container>
   )

@@ -88,6 +88,7 @@ export const Skills: React.FC = () => {
           </div>
         </div>
       </header>
+      <div id="sobre"></div>
     </SkillsDiv>
   )
 }

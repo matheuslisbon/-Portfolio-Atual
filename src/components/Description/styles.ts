@@ -14,7 +14,7 @@ export const Container = styled.div`
     width: 90%;
     margin: 20px auto;
     background: ${props => props.theme.colors.background};
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 
     padding: 20px 20px 20px 20px;
     line-height: 1.5;

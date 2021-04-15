@@ -9,7 +9,7 @@ export const Container = styled.div`
   border-radius: 8px;
   padding: 8px;
   margin-bottom: 50px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 `
 export const Title = styled.h1`
   align-self: center;

@@ -21,14 +21,12 @@ export default createGlobalStyle`
   }
   body {
     color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
-
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111111;
+    margin: 0;
+    overflow-x: hidden;
   }
-  body {
-  background-color: #111111;
-  margin: 0;
-  overflow-x: hidden;
-}
 
 
 

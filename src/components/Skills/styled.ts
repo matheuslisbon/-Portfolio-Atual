@@ -5,7 +5,7 @@ const SkillsDiv = styled.div`
   width: 90%;
   background: ${props => props.theme.colors.background};
   padding: 50px 60px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
   margin: 10px auto;
   margin-top: 60px;
   border-radius: 18px;

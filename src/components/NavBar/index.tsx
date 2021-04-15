@@ -31,27 +31,29 @@ export const NavBar: React.FC<Props> = ({ togleTheme, theme }) => {
             <span className="gradient skew">
               <h1 className="logo un-skew">Matheus'Devs</h1>
             </span>
-            <button id="menu" className="btn-nav">
-              <span className="fas fa-bars"></span>
-            </button>
+            <span id="menu" className="btn-nav skew">
+              <button className="toggle-theme" onClick={togleTheme}>
+                Theme: {theme}
+              </button>
+            </span>
           </div>
           <div className="nav right">
-            <a href="#home" className="nav-link">
+            <a href="#portfolio" className="nav-link">
               <span className="nav-link-span">
                 <span className="u-nav">Portfólio</span>
               </span>
             </a>
-            <a href="#about" className="nav-link">
+            <a href="#skills" className="nav-link">
               <span className="nav-link-span">
                 <span className="u-nav">Skills</span>
               </span>
             </a>
-            <a href="#contact" className="nav-link">
+            <a href="#sobre" className="nav-link">
               <span className="nav-link-span">
                 <span className="u-nav">Sobre</span>
               </span>
             </a>
-            <a href="#contact" className="nav-link">
+            <a href="#contato" className="nav-link">
               <span className="nav-link-span">
                 <span className="u-nav">Contato</span>
               </span>

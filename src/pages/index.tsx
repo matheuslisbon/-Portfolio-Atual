@@ -9,6 +9,7 @@ import { Skills } from '../components/Skills'
 import { Footer } from '../components/Footer'
 import { Description } from '../components/Description'
 import { About } from '../components/About'
+import { SideBar } from '../components/SideBar'
 
 interface Props {
   togleTheme(): void
@@ -30,6 +31,7 @@ const Home: React.FC<Props> = ({ togleTheme, theme }) => {
       <Head>
         <title>Homepage</title>
       </Head>
+      <SideBar />
       <div data-aos="fade-in" data-aos-duration="2000">
         <NavBar togleTheme={togleTheme} theme={theme} />
       </div>

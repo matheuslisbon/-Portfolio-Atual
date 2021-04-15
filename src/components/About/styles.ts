@@ -3,7 +3,7 @@ const ContatoDiv = styled.div`
   div {
     color: ${props => props.theme.colors.text};
     background: ${props => props.theme.colors.background};
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     border-radius: 18px;
     font-size: 26px;
     width: 90%;

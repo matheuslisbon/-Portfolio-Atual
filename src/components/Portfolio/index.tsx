@@ -8,6 +8,7 @@ export const Portfolio: React.FC = () => {
     <Container>
       <Title>Pórtfolio</Title>
       <ImageSlider slides={SliderData} />
+      <div id="skills"></div>
     </Container>
   )
 }

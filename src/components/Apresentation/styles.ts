@@ -12,6 +12,10 @@ export const Container = styled.div`
     margin-top: 20px;
     font-size: 64px;
     z-index: 99;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
   }
 
   p.title {
@@ -23,7 +27,7 @@ export const Container = styled.div`
 
   section {
     background: ${props => props.theme.colors.background};
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     width: 90%;
     margin: 40px 0;
     padding: 20px;

@@ -2,7 +2,7 @@ export default {
   title: 'dark',
 
   colors: {
-    background: 'rgba(255, 255, 255, 0.05)',
+    background: '#111111cc',
     bkUrl: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png',
     bkDefault:
       'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png',
